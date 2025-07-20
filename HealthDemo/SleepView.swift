@@ -99,8 +99,8 @@ struct SleepView: View {
                 sleepSummaryCard
                 sleepStageCard
                 sleepChartCard
-                sleepAdviceCard
                 sleepTrendCard
+                sleepAdviceCard
             }
             .padding(.horizontal)
         }

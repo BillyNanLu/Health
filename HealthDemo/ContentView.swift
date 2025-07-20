@@ -18,14 +18,14 @@ struct ContentView: View {
             
             DataHomeView()
                 .tabItem {
-                    Image(systemName: "chart.bar.fill")
+                    Image(systemName: "figure.walk")
                     Text("数据")
                 }
             
-            ReminderView()
+            WeeklyReportView()
                 .tabItem {
                     Image(systemName: "bell.fill")
-                    Text("提醒")
+                    Text("周报")
                 }
             
             ProfileView()
